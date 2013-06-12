@@ -1,8 +1,9 @@
 package test.wikibase.dataModel;
 
 import org.junit.Test;
-import org.testng.Assert;
 import wikibase.dataModel.EntityId;
+
+import static org.testng.Assert.assertEquals;
 
 public class EntityIdTest {
     @Test
@@ -12,11 +13,7 @@ public class EntityIdTest {
 
         EntityId id = new EntityId( entityType, serialization );
 
-        Assert.assertEquals(id.getEntityType(), entityType);
-        Assert.assertEquals(id.getSerialization(), serialization);
+        assertEquals(id.getEntityType(), entityType);
+        assertEquals(id.getSerialization(), serialization);
     }
-
-
-
-
 }
