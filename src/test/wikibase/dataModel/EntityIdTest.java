@@ -1,6 +1,5 @@
 package test.wikibase.dataModel;
 
-import junit.framework.Assert;
 import org.junit.Test;
 import wikibase.dataModel.EntityId;
 
