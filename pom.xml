@@ -25,6 +25,9 @@
     </dependencies>
 
     <build>
+        <sourceDirectory>src/wikibase/dataModel</sourceDirectory>
+        <testSourceDirectory>src/test/wikibase/dataModel</testSourceDirectory>
+
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>
