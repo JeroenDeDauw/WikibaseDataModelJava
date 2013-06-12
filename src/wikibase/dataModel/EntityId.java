@@ -1,6 +1,19 @@
 package wikibase.dataModel;
 
 public class EntityId {
-    public EntityId(String entityType, Integer idNumber) {
+    protected String entityType;
+    protected String serialization;
+
+    public EntityId(String entityType, String idSerialization) {
+        this.entityType = entityType;
+        this.serialization = idSerialization;
+    }
+
+    public String getEntityType() {
+        return entityType;
+    }
+
+    public String getSerialization() {
+        return serialization;
     }
 }
