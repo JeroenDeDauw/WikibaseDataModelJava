@@ -1,6 +1,6 @@
 package wikibase.dataModel.snak;
 
-import wikibase.dataModel.PropertyId;
+import wikibase.dataModel.entity.PropertyId;
 
 public class PropertySomeValueSnak implements Snak {
     protected PropertyId propertyId;

@@ -2,7 +2,7 @@ package test.wikibase.dataModel.snak;
 
 import org.junit.Assert;
 import org.junit.Test;
-import wikibase.dataModel.PropertyId;
+import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertySomeValueSnak;
 
 public class PropertySomeValueSnakTest {

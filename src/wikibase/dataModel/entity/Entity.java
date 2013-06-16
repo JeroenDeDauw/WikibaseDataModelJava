@@ -1,4 +1,4 @@
-package wikibase.dataModel;
+package wikibase.dataModel.entity;
 
 abstract public class Entity {
     protected EntityId id;

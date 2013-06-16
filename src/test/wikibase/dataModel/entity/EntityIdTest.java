@@ -1,8 +1,8 @@
-package test.wikibase.dataModel;
+package test.wikibase.dataModel.entity;
 
 import org.junit.Assert;
 import org.junit.Test;
-import wikibase.dataModel.EntityId;
+import wikibase.dataModel.entity.EntityId;
 
 public class EntityIdTest {
     @Test
