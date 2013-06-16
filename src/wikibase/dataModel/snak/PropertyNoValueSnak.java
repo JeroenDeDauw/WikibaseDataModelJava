@@ -1,4 +1,6 @@
-package wikibase.dataModel;
+package wikibase.dataModel.snak;
+
+import wikibase.dataModel.PropertyId;
 
 public class PropertyNoValueSnak implements Snak {
     protected PropertyId propertyId;

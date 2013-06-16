@@ -1,9 +1,9 @@
-package test.wikibase.dataModel;
+package test.wikibase.dataModel.snak;
 
 import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.PropertyId;
-import wikibase.dataModel.PropertyNoValueSnak;
+import wikibase.dataModel.snak.PropertyNoValueSnak;
 
 public class PropertyNoValueSnakTest {
     @Test
