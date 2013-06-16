@@ -13,11 +13,10 @@ public class ReferenceListTest {
 
     @Test
     public void assertCanAddReferences() throws Exception {
-        ReferenceList references = new ReferenceList();
-
         Reference firstReference = new Reference();
         Reference secondReference = new Reference();
 
+        ReferenceList references = new ReferenceList();
         references.add(firstReference);
         references.add(secondReference);
 
