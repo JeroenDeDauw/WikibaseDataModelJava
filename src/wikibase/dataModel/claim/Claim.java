@@ -1,5 +1,6 @@
 package wikibase.dataModel.claim;
 
+import test.wikibase.dataModel.claim.Rank;
 import wikibase.dataModel.snak.Snak;
 import wikibase.dataModel.snak.SnakList;
 
@@ -23,5 +24,9 @@ public class Claim {
 
     public SnakList getQualifiers() {
         return qualifiers;
+    }
+
+    public Rank getRank() {
+        return Rank.TRUTH;
     }
 }

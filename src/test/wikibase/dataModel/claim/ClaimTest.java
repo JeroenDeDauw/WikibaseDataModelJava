@@ -27,4 +27,11 @@ public class ClaimTest {
         Assert.assertEquals(claim.getMainSnak(), mainSnak);
         Assert.assertEquals(claim.getQualifiers(), qualifiers);
     }
+
+    @Test
+    public void assertGetRank() throws Exception {
+        Claim claim = new Claim(new PropertyNoValueSnak(new PropertyId("p42")));
+
+        Assert.assertEquals(claim.getRank(), Rank.TRUTH);
+    }
 }
