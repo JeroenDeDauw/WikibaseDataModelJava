@@ -1,6 +1,5 @@
 package wikibase.dataModel.claim;
 
-import test.wikibase.dataModel.claim.Rank;
 import wikibase.dataModel.snak.Snak;
 import wikibase.dataModel.snak.SnakList;
 

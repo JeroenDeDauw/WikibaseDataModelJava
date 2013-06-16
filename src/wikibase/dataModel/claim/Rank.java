@@ -1,4 +1,4 @@
-package test.wikibase.dataModel.claim;
+package wikibase.dataModel.claim;
 
 public enum Rank {
     TRUTH,
