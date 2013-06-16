@@ -17,8 +17,8 @@ public class SnakListTest {
     public void assertCanAddSnaks() throws Exception {
         SnakList snaks = new SnakList();
 
-        Snak firstSnak = new PropertyNoValueSnak(new PropertyId("property", "p42"));
-        Snak secondSnak = new PropertyNoValueSnak(new PropertyId("property", "p43"));
+        Snak firstSnak = new PropertyNoValueSnak(new PropertyId("p42"));
+        Snak secondSnak = new PropertyNoValueSnak(new PropertyId("p43"));
 
         snaks.add(firstSnak);
         snaks.add(secondSnak);

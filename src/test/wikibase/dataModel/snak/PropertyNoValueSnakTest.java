@@ -8,7 +8,7 @@ import wikibase.dataModel.snak.PropertyNoValueSnak;
 public class PropertyNoValueSnakTest {
     @Test
     public void assertCanConstruct() throws Exception {
-        PropertyId id = new PropertyId("property", "p42");
+        PropertyId id = new PropertyId("p42");
 
         PropertyNoValueSnak snak = new PropertyNoValueSnak( id );
 
