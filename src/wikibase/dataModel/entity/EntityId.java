@@ -1,6 +1,6 @@
 package wikibase.dataModel.entity;
 
-public class EntityId {
+abstract public class EntityId {
     protected String entityType;
     protected String serialization;
 

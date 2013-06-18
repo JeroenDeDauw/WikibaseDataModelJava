@@ -2,17 +2,16 @@ package test.wikibase.dataModel.entity;
 
 import org.junit.Assert;
 import org.junit.Test;
-import wikibase.dataModel.entity.EntityId;
+import wikibase.dataModel.entity.ItemId;
 
-public class EntityIdTest {
+public class ItemIdTest {
     @Test
     public void assertCanConstruct() throws Exception {
-        String entityType = "item";
         String serialization = "q42";
 
-        EntityId id = new EntityId( entityType, serialization );
+        ItemId id = new ItemId( serialization );
 
-        Assert.assertEquals(id.getEntityType(), entityType);
+        Assert.assertEquals(id.getEntityType(), "item");
         Assert.assertEquals(id.getSerialization(), serialization);
     }
 }
