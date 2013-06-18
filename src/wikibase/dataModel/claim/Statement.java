@@ -1,5 +1,6 @@
 package wikibase.dataModel.claim;
 
+import wikibase.dataModel.reference.ReferenceList;
 import wikibase.dataModel.snak.Snak;
 import wikibase.dataModel.snak.SnakList;
 

@@ -3,7 +3,7 @@ package test.wikibase.dataModel.claim;
 import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.claim.Rank;
-import wikibase.dataModel.claim.ReferenceList;
+import wikibase.dataModel.reference.ReferenceList;
 import wikibase.dataModel.claim.Statement;
 import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
