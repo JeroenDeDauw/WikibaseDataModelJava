@@ -1,7 +1,7 @@
 package test.wikibase.dataModel.claim;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 import wikibase.dataModel.claim.Reference;
 import wikibase.dataModel.claim.ReferenceList;
 

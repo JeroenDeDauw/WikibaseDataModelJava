@@ -1,7 +1,7 @@
 package test.wikibase.dataModel.snak;
 
-import org.junit.Test;
 import org.junit.Assert;
+import org.junit.Test;
 import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
 import wikibase.dataModel.snak.Snak;
