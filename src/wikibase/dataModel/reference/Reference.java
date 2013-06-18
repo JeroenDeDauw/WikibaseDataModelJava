@@ -1,4 +1,4 @@
-package wikibase.dataModel.claim;
+package wikibase.dataModel.reference;
 
 import wikibase.dataModel.snak.SnakList;
 

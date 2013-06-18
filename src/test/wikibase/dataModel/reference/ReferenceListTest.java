@@ -1,9 +1,9 @@
-package test.wikibase.dataModel.claim;
+package test.wikibase.dataModel.reference;
 
 import org.junit.Assert;
 import org.junit.Test;
-import wikibase.dataModel.claim.Reference;
-import wikibase.dataModel.claim.ReferenceList;
+import wikibase.dataModel.reference.Reference;
+import wikibase.dataModel.reference.ReferenceList;
 
 public class ReferenceListTest {
     @Test
