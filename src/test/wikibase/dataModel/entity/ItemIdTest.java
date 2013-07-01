@@ -1,8 +1,9 @@
 package test.wikibase.dataModel.entity;
 
-import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.entity.ItemId;
+
+import static org.junit.Assert.assertEquals;
 
 public class ItemIdTest {
     @Test
@@ -11,7 +12,7 @@ public class ItemIdTest {
 
         ItemId id = new ItemId( serialization );
 
-        Assert.assertEquals(id.getEntityType(), "item");
-        Assert.assertEquals(id.getSerialization(), serialization);
+        assertEquals(id.getEntityType(), "item");
+        assertEquals(id.getSerialization(), serialization);
     }
 }

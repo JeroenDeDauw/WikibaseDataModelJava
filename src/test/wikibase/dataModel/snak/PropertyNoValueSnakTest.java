@@ -1,9 +1,10 @@
 package test.wikibase.dataModel.snak;
 
-import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
+
+import static org.junit.Assert.assertEquals;
 
 public class PropertyNoValueSnakTest {
     @Test
@@ -12,6 +13,6 @@ public class PropertyNoValueSnakTest {
 
         PropertyNoValueSnak snak = new PropertyNoValueSnak( id );
 
-        Assert.assertEquals(snak.getPropertyId(), id);
+        assertEquals(snak.getPropertyId(), id);
     }
 }

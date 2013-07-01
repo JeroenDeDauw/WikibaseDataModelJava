@@ -1,11 +1,12 @@
 package test.wikibase.dataModel.snak;
 
-import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
 import wikibase.dataModel.snak.Snak;
 import wikibase.dataModel.snak.SnakList;
+
+import static org.junit.Assert.assertEquals;
 
 public class SnakListTest {
     @Test
@@ -23,8 +24,8 @@ public class SnakListTest {
         snaks.add(firstSnak);
         snaks.add(secondSnak);
 
-        Assert.assertEquals(snaks.size(), 2);
-        Assert.assertEquals(snaks.get(0), firstSnak);
-        Assert.assertEquals(snaks.get(1), secondSnak);
+        assertEquals(snaks.size(), 2);
+        assertEquals(snaks.get(0), firstSnak);
+        assertEquals(snaks.get(1), secondSnak);
     }
 }

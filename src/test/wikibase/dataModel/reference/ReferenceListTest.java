@@ -1,9 +1,10 @@
 package test.wikibase.dataModel.reference;
 
-import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.reference.Reference;
 import wikibase.dataModel.reference.ReferenceList;
+
+import static org.junit.Assert.assertEquals;
 
 public class ReferenceListTest {
     @Test
@@ -20,8 +21,8 @@ public class ReferenceListTest {
         references.add(firstReference);
         references.add(secondReference);
 
-        Assert.assertEquals(references.size(), 2);
-        Assert.assertEquals(references.get(0), firstReference);
-        Assert.assertEquals(references.get(1), secondReference);
+        assertEquals(references.size(), 2);
+        assertEquals(references.get(0), firstReference);
+        assertEquals(references.get(1), secondReference);
     }
 }

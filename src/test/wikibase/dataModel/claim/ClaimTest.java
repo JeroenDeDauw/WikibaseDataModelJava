@@ -1,12 +1,13 @@
 package test.wikibase.dataModel.claim;
 
-import org.junit.Assert;
 import org.junit.Test;
 import wikibase.dataModel.claim.Claim;
 import wikibase.dataModel.claim.Rank;
 import wikibase.dataModel.entity.PropertyId;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
 import wikibase.dataModel.snak.SnakList;
+
+import static org.junit.Assert.assertEquals;
 
 public class ClaimTest {
     @Test
@@ -15,7 +16,7 @@ public class ClaimTest {
 
         Claim claim = new Claim(mainSnak);
 
-        Assert.assertEquals(claim.getMainSnak(), mainSnak);
+        assertEquals(claim.getMainSnak(), mainSnak);
     }
 
     @Test
@@ -25,14 +26,14 @@ public class ClaimTest {
 
         Claim claim = new Claim(mainSnak, qualifiers);
 
-        Assert.assertEquals(claim.getMainSnak(), mainSnak);
-        Assert.assertEquals(claim.getQualifiers(), qualifiers);
+        assertEquals(claim.getMainSnak(), mainSnak);
+        assertEquals(claim.getQualifiers(), qualifiers);
     }
 
     @Test
     public void assertGetRank() throws Exception {
         Claim claim = new Claim(new PropertyNoValueSnak(new PropertyId("p42")));
 
-        Assert.assertEquals(claim.getRank(), Rank.TRUTH);
+        assertEquals(claim.getRank(), Rank.TRUTH);
     }
 }
