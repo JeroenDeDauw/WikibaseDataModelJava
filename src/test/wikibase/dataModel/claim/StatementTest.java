@@ -2,9 +2,9 @@ package test.wikibase.dataModel.claim;
 
 import org.junit.Test;
 import wikibase.dataModel.claim.Rank;
+import wikibase.dataModel.reference.ReferenceList;
 import wikibase.dataModel.claim.Statement;
 import wikibase.dataModel.entity.PropertyId;
-import wikibase.dataModel.reference.ReferenceList;
 import wikibase.dataModel.snak.PropertyNoValueSnak;
 import wikibase.dataModel.snak.Snak;
 import wikibase.dataModel.snak.SnakList;
